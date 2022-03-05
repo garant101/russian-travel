@@ -1,0 +1,29 @@
+.lead__picture {
+  margin: 64px auto 0;
+  max-width: 984px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1279px) {
+  .lead__picture {
+    margin-top: 56px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .lead__picture {
+    max-width: 100vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .lead__picture {
+    margin-top: 40px;
+  }
+}
